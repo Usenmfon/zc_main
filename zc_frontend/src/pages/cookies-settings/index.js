@@ -5,6 +5,7 @@ import lockButton from '../../assets/lock.svg'
 
 function Cookies() {
     return (
+        <div className={styles.container}>
         <div className={styles.cookie_content}>
             <div className={styles.cookie_header}>
                 <div className={styles.cookie_header_title}>
@@ -51,6 +52,7 @@ function Cookies() {
                     <button className={styles.secondButton}>Save settings</button>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

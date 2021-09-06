@@ -105,7 +105,19 @@ button:active {
 }
 
 @media only screen and (min-width: 769px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
     .cookie_content {
-        display: none;
+        border-radius: 5%;
+        margin-bottom: 10%;
+        width: 60%;
+        min-height: 75vh;
+        box-shadow: 0 5px 10px #888888;
+    }
+    .cookie_body_text {
+        width: 80%;
     }
 }
